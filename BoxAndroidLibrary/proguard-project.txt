@@ -19,7 +19,12 @@
 #   public *;
 #}
 
+#APACHE LIBRARY
+-keepnames class org.apache.** {*;}
+-keep public class org.apache.** {*;}
+-dontwarn org.apache.**
+
+-dontwarn sun.misc.Unsafe
+
 -keep class com.box.androidlib.** { *; }
 -keep interface com.box.androidlib.** { *; }
-
--keepattributes *Annotation*
