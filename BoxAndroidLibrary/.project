@@ -3,6 +3,7 @@
 	<name>BoxAndroidLibrary</name>
 	<comment></comment>
 	<projects>
+		<project>GoodDynamics</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
