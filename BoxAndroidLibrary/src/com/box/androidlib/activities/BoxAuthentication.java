@@ -13,7 +13,6 @@ package com.box.androidlib.activities;
 
 import java.io.IOException;
 
-import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
@@ -29,6 +28,7 @@ import com.box.androidlib.DAO.User;
 import com.box.androidlib.ResponseListeners.GetAuthTokenListener;
 import com.box.androidlib.ResponseListeners.GetTicketListener;
 import com.box.androidlib.Utils.BoxConstants;
+import com.good.gd.Activity;
 
 /**
  * Activity for authenticating Box users. See
