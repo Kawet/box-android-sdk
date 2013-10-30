@@ -2,5 +2,8 @@ bin/*
 gen/*
 dist/*
 
+#Android Studio
+*.iml
+
 #Crashlytics
 res/values/com_crashlytics_export_strings.xml
